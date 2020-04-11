@@ -1,4 +1,4 @@
-A Socket.io Chat Server
+A Socket.io Chat Server Demo
 =========================================
 
 ## Building and running a server
@@ -43,7 +43,7 @@ $ npm run tslint
 To connect with `wscat`:
 
 ```bash
-$ wscat -c wss://localhost:3000/socket.io/\?EIO=3\&transport=websocket -n
+$ wscat -c 'wss://localhost:3000/socket.io/?EIO=3&transport=websocket' -n
 ```
 
 Commands:
