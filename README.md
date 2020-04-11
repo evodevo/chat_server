@@ -55,6 +55,3 @@ Commands:
 | `42["message", {"channel": "room-1", "content": "Hello everyone from client 1 to channel 1!"}]` | Send a message to a channel "room-1" |
 | `42["count", {"channel": "room-1"}]` | Get users count in channel "room-1" |
 | `42["leave", {"channel": "room-1"}]` | Leave a channel named "room-1" |
-
-
-zip -r --exclude='chat/server/node_modules/*' --exclude='chat/.git/*' --exclude='chat/.idea/*' --exclude='chat/.DS_Store' chat.zip ./chat
